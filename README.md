@@ -22,6 +22,8 @@ In this example, two streams are created:
 ### Streams are lazy
 
 ```elixir
+iex> stream = ClickStream.create_stream_x
+#Function<25.29647706/2 in Stream.resource/3>
 iex> stream |> Stream.filter(fn x -> x < 100 end) |> Enum.take 10
 x: 376
 x: 376
