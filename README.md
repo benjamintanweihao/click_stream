@@ -19,7 +19,7 @@ In this example, two streams are created:
 
 * `ClickStream.create_stream_y` creates a steam that produces vlaues that represent the y coordinates of the mouse.
 
-### Streams are lazy:
+### Streams are lazy
 
 ```elixir
 iex> stream |> Stream.filter(fn x -> x < 100 end) |> Enum.take 10
@@ -39,7 +39,7 @@ x: 22
 [13, 13, 15, 16, 17, 18, 20, 21, 22, 22]
 ```
 
-### Streams are composable:
+### Streams are composable
 
 We can lazily zip collections together:
 
@@ -70,3 +70,5 @@ y: 148
 [{380, 144}, {359, 147}, {340, 150}, {329, 153}, {316, 157},
  {307, 160}, {299, 160}, {298, 156}, {296, 154}, {282, 148}]
 ```
+
+Streams are awesome!
