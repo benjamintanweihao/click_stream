@@ -5,9 +5,7 @@ Learning about [Streams](http://elixir-lang.org/docs/master/elixir/Stream.html) 
 
 You can read about the blog post [here](http://benjamintan.io/blog/2015/02/05/how-to-build-streams-in-elixir-easily-with-stream-resource-awesomeness/).
 
-This project creates a wXwidget window, and by moving the mouse, emits mouse coordinates. Here's a quick demo:
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/wnI0z514jmA" frameborder="0" allowfullscreen></iframe>
+This project creates a wXwidget window, and by moving the mouse, emits mouse coordinates. 
 
 ## Playing Around
 
